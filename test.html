@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap3/css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="jquery.bootstrap.dialogs.js"></script>
+</head>
+<body>
+	<a id="delete" href="javascript:;">delete</a>
+	<script type="text/javascript">
+		$('#delete').click(function(){
+			$.dialogs.warn('stop delete!');
+			return false;
+		});
+	</script>
+</body>
+</html>
